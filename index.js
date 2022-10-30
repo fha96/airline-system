@@ -1,10 +1,7 @@
 "use strict";
 
-const { v4: uuid4 } = require("uuid");
-console.log(uuid4());
-console.log(uuid4());
-console.log(uuid4());
+const { faker } = require("@faker-js/faker");
 
 module.exports = {
-  uuid4,
+  faker,
 };
