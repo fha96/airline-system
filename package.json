@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "faker": "^6.6.6",
+    "uuid": "^9.0.0"
+  },
+  "name": "airline-system",
+  "description": "Create airline system to track the flights when it's took-off and arrived using event driven architecture",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js, manager.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fha96/airline-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fha96/airline-system/issues"
+  },
+  "homepage": "https://github.com/fha96/airline-system#readme"
+}
