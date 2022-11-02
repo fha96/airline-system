@@ -16,6 +16,9 @@ io.on('connection', (socket) => {
   socket.on('log-status', (payload) => {
     console.log(payload);
   });
+  socket.on('notify-arrived', (payload) => {
+    io.emit('notify-manager', payload);
+  })
 });
 
 

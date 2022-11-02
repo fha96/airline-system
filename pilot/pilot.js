@@ -30,6 +30,7 @@ PilotConnectionAirline.on("arrived", (payload) => {
     payload.event = 'arrived';
     payload.date = new Date();
     PilotConnectionAirline.emit('log-status',payload);
+    PilotConnection.emit('notify-arrived', payload)
   },7000)
 });
 

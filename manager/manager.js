@@ -17,6 +17,10 @@ ManagerConnection.on("new-flight", (payload) => {
   ManagerConnection.emit('log-status', payload);
 });
 
+ManagerConnection.on('notify-manager', (payload) => {
+  console.log(`Manager: we’re greatly thankful for the amazing flight, ${payload.Details.pilot}`);
+});
+
 
 setInterval(() => {
   const payload = {
